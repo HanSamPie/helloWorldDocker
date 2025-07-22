@@ -1,4 +1,4 @@
-FROM mtr.devops.telekom.de/dpm/internal_tools/golang:latest
+FROM golang:latest
 WORKDIR /app
 
 COPY main.go /app/main.go
